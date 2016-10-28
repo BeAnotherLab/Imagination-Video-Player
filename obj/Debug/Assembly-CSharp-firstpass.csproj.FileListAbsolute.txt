@@ -19,3 +19,24 @@ C:\Users\Marte\Documents\GitHub\360-AVpro-Video-Player\Spherical video player2\T
 C:\Users\Marte\Documents\GitHub\360-AVpro-Video-Player\Spherical video player2\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 C:\Users\Marte\Documents\GitHub\360-AVpro-Video-Player\Spherical video player2\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\Marte\Documents\GitHub\360-AVpro-Video-Player\Spherical video player2\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Daniel\Documents\dev\Imagination-Video-Player\obj\Debug\Assembly-CSharp-firstpass.pdb
