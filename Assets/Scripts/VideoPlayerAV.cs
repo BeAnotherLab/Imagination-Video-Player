@@ -21,10 +21,10 @@ public class VideoPlayerAV : MonoBehaviour {
 		if(Input.GetKeyDown("c"))
 			InputTracking.Recenter();
 
-		if (Input.GetKeyDown ("m")){
+		if (Input.GetKeyDown ("return")){
 			_mediaPlayer.Control.Stop ();
-			loadingImage.SetActive (true);
-			//Application.LoadLevel(0);
+			_mediaPlayer.Control.Seek (0);
+			isPlaying = false;
 		}
 
 		if (Input.GetKeyDown ("space")) {
