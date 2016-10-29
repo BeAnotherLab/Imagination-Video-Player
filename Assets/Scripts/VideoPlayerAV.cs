@@ -12,6 +12,7 @@ public class VideoPlayerAV : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		isPlaying = false;
+		InputTracking.Recenter();
 	}
 	
 	// Update is called once per frame
@@ -23,7 +24,7 @@ public class VideoPlayerAV : MonoBehaviour {
 		if (Input.GetKeyDown ("m")){
 			_mediaPlayer.Control.Stop ();
 			loadingImage.SetActive (true);
-			Application.LoadLevel(0);
+			//Application.LoadLevel(0);
 		}
 
 		if (Input.GetKeyDown ("space")) {
@@ -42,7 +43,7 @@ public class VideoPlayerAV : MonoBehaviour {
 		}
 
 		if (_mediaPlayer.Control.IsFinished()) {
-				Application.LoadLevel (0);
+				//Application.LoadLevel (0);
 		}
 
 	}
