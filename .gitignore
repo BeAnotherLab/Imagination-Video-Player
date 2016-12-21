@@ -78,7 +78,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
+##Large files
+# Audio files
+Assets/Audios/
 # Video files
 Assets/StreamingAssets/Imagination Videos/
 Assets/Audio/
