@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Main.unity
+- path: Assets/Scenes/15-spherical.unity
   isLoaded: 1
   isActive: 1
