@@ -161,7 +161,9 @@ MonoBehaviour:
 
     return = stop
 
-    c = center'
+    c = center
+
+    m = load menu'
 --- !u!222 &73078952
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -803,7 +805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_VideoLocation: 2
-  m_VideoPath: video.mp4
+  m_VideoPath: 01_Palomas.MP4
   m_AutoOpen: 1
   m_AutoStart: 0
   m_Loop: 0

@@ -27,6 +27,11 @@ public class VideoPlayerAV : MonoBehaviour {
 			isPlaying = false;
 		}
 
+		if (Input.GetKeyDown ("m")){
+			Application.LoadLevel (0);
+		}
+
+
 		if (Input.GetKeyDown ("space")) {
 
 			if (!isPlaying) {
@@ -43,7 +48,7 @@ public class VideoPlayerAV : MonoBehaviour {
 		}
 
 		if (_mediaPlayer.Control.IsFinished()) {
-				//Application.LoadLevel (0);
+				Application.LoadLevel (0);
 		}
 
 	}

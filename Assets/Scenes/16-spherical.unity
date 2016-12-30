@@ -161,7 +161,9 @@ MonoBehaviour:
 
     return = stop
 
-    c = center'
+    c = center
+
+    m = load menu'
 --- !u!222 &73078952
 CanvasRenderer:
   m_ObjectHideFlags: 0
