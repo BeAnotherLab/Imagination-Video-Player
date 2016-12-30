@@ -61,7 +61,10 @@ public class OSCSender : MonoBehaviour
 
 		if (Input.GetKeyDown ("space") && isPlaying)
 			audioSettings = Osc.StringToOscMessage ("/" + audioNumber + " pause");
-
+		
+		if (Input.GetKeyDown ("return") && isPlaying)
+			audioSettings = Osc.StringToOscMessage ("/" + audioNumber + " stop");
+		
 		if(Input.GetKeyDown("space") && !isPlaying)
 			audioSettings = Osc.StringToOscMessage("/" + audioNumber + " play");
 
