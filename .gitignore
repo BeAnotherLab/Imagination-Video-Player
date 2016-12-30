@@ -81,6 +81,7 @@ Temporary Items
 ##Large files
 # Audio files
 Assets/Audios/
+AudioPlayer/Audios/
 # Video files
 Assets/StreamingAssets/Imagination Videos/
 Assets/Audio/
