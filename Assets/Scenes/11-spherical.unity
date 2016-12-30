@@ -809,7 +809,7 @@ MonoBehaviour:
   m_AutoOpen: 1
   m_AutoStart: 0
   m_Loop: 0
-  m_Volume: 0
+  m_Volume: 1
   m_Muted: 1
   m_PlaybackRate: 1
   m_DebugGui: 0
