@@ -3,9 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 3,
-			"revision" : 1,
-			"architecture" : "x64",
+			"minor" : 2,
+			"revision" : 4,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -37,6 +37,33 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 674.0, 107.0, 24.0, 22.0 ],
+					"style" : "",
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 674.0, 147.5, 60.0, 36.0 ],
+					"style" : "",
+					"text" : ";\r\ndsp open"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
@@ -114,9 +141,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -158,9 +185,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -474,9 +501,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -824,7 +851,7 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 0.0, "ticks" ],
+										"originallength" : [ 346330.0, "ticks" ],
 										"originaltempo" : 120.0,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -1012,7 +1039,7 @@
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 111.458333, 123.0, 111.458336, 123.0 ],
+									"midpoints" : [ 111.458336, 123.0, 111.458336, 123.0 ],
 									"source" : [ "obj-7", 1 ]
 								}
 
@@ -1022,7 +1049,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 163.416667, 123.0, 163.416672, 123.0 ],
+									"midpoints" : [ 163.416672, 123.0, 163.416672, 123.0 ],
 									"source" : [ "obj-7", 2 ]
 								}
 
@@ -1123,9 +1150,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1167,9 +1194,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1483,9 +1510,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1833,7 +1860,7 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 494958.48, "ticks" ],
+										"originallength" : [ 494958.46875, "ticks" ],
 										"originaltempo" : 120.0,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -2077,9 +2104,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2121,9 +2148,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -2437,9 +2464,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -2787,7 +2814,7 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 673985.32, "ticks" ],
+										"originallength" : [ 673985.3125, "ticks" ],
 										"originaltempo" : 120.0,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -3031,9 +3058,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3075,9 +3102,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -3391,9 +3418,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -3741,7 +3768,7 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 446558.12, "ticks" ],
+										"originallength" : [ 446558.125, "ticks" ],
 										"originaltempo" : 120.0,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -3985,9 +4012,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4029,9 +4056,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -4345,9 +4372,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -4695,7 +4722,7 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 532339.82, "ticks" ],
+										"originallength" : [ 532339.8125, "ticks" ],
 										"originaltempo" : 120.0,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -4939,9 +4966,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4983,9 +5010,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -5299,9 +5326,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -5649,7 +5676,7 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 306674.38, "ticks" ],
+										"originallength" : [ 306674.375, "ticks" ],
 										"originaltempo" : 120.0,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -5836,7 +5863,7 @@
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 111.458333, 123.0, 111.458336, 123.0 ],
+									"midpoints" : [ 111.458336, 123.0, 111.458336, 123.0 ],
 									"source" : [ "obj-7", 1 ]
 								}
 
@@ -5846,7 +5873,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 163.416667, 123.0, 163.416672, 123.0 ],
+									"midpoints" : [ 163.416672, 123.0, 163.416672, 123.0 ],
 									"source" : [ "obj-7", 2 ]
 								}
 
@@ -5921,9 +5948,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -5965,9 +5992,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -6281,9 +6308,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -6875,9 +6902,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -6919,9 +6946,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -7209,9 +7236,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -7279,9 +7306,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
-															"revision" : 1,
-															"architecture" : "x64",
+															"minor" : 2,
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -7704,7 +7731,7 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 340889.6, "ticks" ],
+										"originallength" : [ 340889.59375, "ticks" ],
 										"originaltempo" : 120.0,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -7912,9 +7939,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -7956,9 +7983,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -8026,9 +8053,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
-															"revision" : 1,
-															"architecture" : "x64",
+															"minor" : 2,
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -8410,9 +8437,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -8741,7 +8768,7 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 293373.910204, "ticks" ],
+										"originallength" : [ 293373.90625, "ticks" ],
 										"originaltempo" : 120.0,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -8899,7 +8926,7 @@
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 111.458333, 123.0, 111.458336, 123.0 ],
+									"midpoints" : [ 111.458336, 123.0, 111.458336, 123.0 ],
 									"source" : [ "obj-7", 1 ]
 								}
 
@@ -8909,7 +8936,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 163.416667, 123.0, 163.416672, 123.0 ],
+									"midpoints" : [ 163.416672, 123.0, 163.416672, 123.0 ],
 									"source" : [ "obj-7", 2 ]
 								}
 
@@ -8962,9 +8989,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -9006,9 +9033,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -9076,9 +9103,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 3,
-															"revision" : 1,
-															"architecture" : "x64",
+															"minor" : 2,
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -9460,9 +9487,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 3,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -9778,7 +9805,7 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 523574.682993, "ticks" ],
+										"originallength" : [ 523574.6875, "ticks" ],
 										"originaltempo" : 120.0,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -9915,7 +9942,7 @@
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 177.791667, 131.0, 177.791672, 131.0 ],
+									"midpoints" : [ 177.791672, 131.0, 177.791672, 131.0 ],
 									"source" : [ "obj-7", 1 ]
 								}
 
@@ -9925,7 +9952,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 236.083333, 131.0, 236.083328, 131.0 ],
+									"midpoints" : [ 236.083328, 131.0, 236.083328, 131.0 ],
 									"source" : [ "obj-7", 2 ]
 								}
 
@@ -10204,6 +10231,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -10245,6 +10281,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
